@@ -260,49 +260,132 @@ Figma có thể hỗ trợ kể chuyện, nhưng với năng lực của team, c
 
 ## 7. Tiêu chí chấm
 
-### Innovation & Impact
+RMIT công bố năm tiêu chí. Bốn tiêu chí đầu đánh giá chất lượng của problem, solution và prototype. Tiêu chí thứ năm, **Presentation & Communication**, được ghi rõ là **Finale only**.
 
-Giám khảo xem giải pháp có đủ mới và tạo tác động thật đối với accessibility/employability hay không. “Mới” không nhất thiết là một model mới. Một công nghệ có sẵn vẫn có thể tạo ra innovation khi được áp dụng vào một rào cản bị bỏ qua và thiết kế thành workflow tốt hơn.
+Điều này có một hệ quả thực tế: để vào Top 8, team trước hết phải có một bài làm mạnh ở Innovation, User-Centred Design, Feasibility và Use of AI. Một phần pitch tốt không thể cứu một problem mơ hồ hoặc prototype thiếu bằng chứng ở preliminary round. Khi đã vào Finale, cách trình bày và trả lời giám khảo mới trở thành tiêu chí chấm chính thức bổ sung.
+
+Website chưa công bố trọng số, score scale, cách cộng điểm giữa các vòng hoặc việc Finale có chấm lại bốn tiêu chí đầu hay không. Phần dưới đây là cách team diễn giải rubric để chuẩn bị, không phải scoring formula của BTC. Nguồn đối chiếu: [Judging Criteria — ADC Hackathon 2026](https://industryhub.rmit.edu.vn/ADC/#judging).
+
+### 7.1. Innovation & Impact
+
+BTC đánh giá mức độ nguyên bản và tác động của solution đối với một accessibility/employability challenge thật.
+
+“Innovation” không đồng nghĩa với việc phải tạo model mới. Một công nghệ có sẵn vẫn có thể tạo ra đổi mới nếu team:
+
+- tìm được một barrier cụ thể đang bị bỏ qua;
+- hiểu vì sao cách hiện tại chưa đủ;
+- thiết kế workflow tốt hơn;
+- chứng minh outcome của người dùng được cải thiện.
 
 Team cần trả lời được:
 
-- Vấn đề có thật và xảy ra thường xuyên không?
-- Existing solution đang thiếu gì?
-- Người dùng được lợi ở điểm nào?
-- Before và after khác nhau ra sao?
+- Vấn đề xảy ra với ai, trong tình huống công việc nào?
+- Nó xảy ra thường xuyên và gây hậu quả gì?
+- Người dùng hiện giải quyết bằng cách nào?
+- Existing solution thiếu gì?
+- Solution của team khác ở một hoặc hai điểm nào?
+- Before và after có thể quan sát hoặc đo ra sao?
 
-### User-Centred Design & Accessibility
+Evidence nên đưa vào deck có thể là user quote, observation, competitor comparison, số bước được giảm, thời gian tiết kiệm hoặc khả năng tham gia công việc được cải thiện. Linh chịu trách nhiệm giữ problem/evidence; Anh và Phúc kiểm tra xem claim về tác động có đúng với prototype hay không.
 
-Đây là tiêu chí team không thể bù bằng technical complexity. Giám khảo cần thấy team hiểu nhu cầu thật và sản phẩm được thiết kế để chính target user có thể sử dụng.
+### 7.2. User-Centred Design & Accessibility
 
-Evidence tốt không chỉ là một quote. Nó có thể là việc team thay đổi output, bỏ một feature, rút ngắn flow hoặc thêm cơ chế kiểm soát sau khi nhận feedback.
+BTC xem solution có thực sự hiểu user needs và áp dụng inclusive, accessible design principles hay không.
 
-### Feasibility & Practicality
+Đây là tiêu chí team không thể bù bằng technical complexity. App dành cho người khiếm thị nhưng không dùng được bằng keyboard hoặc screen reader sẽ tự mâu thuẫn. Tương tự, sản phẩm cho neurodivergent employees nhưng áp đặt một giao diện duy nhất cho mọi người cũng chưa phải user-centred.
 
-Một ý tưởng “wow” vẫn yếu nếu không thể triển khai. Team nên nói rõ:
+Evidence mạnh gồm:
 
-- công nghệ đang dùng;
-- model/API dependency;
-- latency và chi phí;
-- dữ liệu được xử lý ra sao;
-- khả năng tích hợp vào môi trường làm việc;
-- limitation và roadmap từ prototype tới pilot.
+- insight từ end-user conversation;
+- assumption ban đầu và điều team học được;
+- một quyết định thiết kế thay đổi sau feedback;
+- kết quả keyboard/screen-reader/usability test;
+- việc team bỏ một feature gây cognitive load;
+- cơ chế để user kiểm soát, sửa hoặc xác nhận AI output.
 
-### Use of AI
+Linh lead phần interview và ghi evidence. Anh chịu trách nhiệm accessibility implementation. Phúc bảo đảm AI output phù hợp với cách user muốn tiếp nhận, thay vì chỉ tối ưu metric kỹ thuật.
 
-AI phải được dùng hiệu quả, phù hợp và có trách nhiệm. Với mỗi solution, team cần thống nhất ba câu:
+### 7.3. Feasibility & Practicality
 
-1. Vì sao bài toán này cần AI?
-2. Vì sao chọn model/API/pipeline này?
-3. AI có thể sai ở đâu và hậu quả là gì?
+BTC đánh giá solution có thực tế và triển khai được trong điều kiện, nguồn lực ngoài đời hay không.
 
-Nếu một function hoặc rule đơn giản đã giải quyết được nhiệm vụ, dùng LLM chỉ để có chữ AI sẽ làm lập luận yếu hơn.
+Một prototype chạy được là điểm khởi đầu, chưa phải toàn bộ feasibility. Team còn phải nói rõ:
 
-### Presentation & Communication
+- model, API và hạ tầng đang dùng;
+- latency trong một lượt xử lý;
+- chi phí ở quy mô pilot;
+- dữ liệu nào được gửi ra bên ngoài;
+- privacy, consent và retention;
+- khả năng tích hợp với workflow hiện tại;
+- user hoặc employer phải thay đổi hành vi gì;
+- roadmap từ prototype tới pilot.
 
-Tiêu chí này chỉ áp dụng ở Finale. Giám khảo đánh giá độ rõ ràng, sức thuyết phục, khả năng trả lời câu hỏi và cách team giải thích prototype. Linh sẽ lead phần trình bày, nhưng Anh và Phúc phải tự trả lời được các quyết định thuộc phần mình.
+Anh lead architecture, deployment và integration. Phúc chuẩn bị model limitation, latency và cost. Linh phụ trách adoption, stakeholder và implementation roadmap.
 
-Website không công bố trọng số cụ thể cho năm tiêu chí.
+Một architecture hai service ổn định sẽ thuyết phục hơn năm service chỉ để nhìn phức tạp. Nếu demo dùng external API, team nên có cached sample và giải thích rõ đó là fallback, không giả vờ là live inference.
+
+### 7.4. Use of AI
+
+BTC xem AI được tích hợp hiệu quả, phù hợp và có trách nhiệm đến đâu. Việc có chữ AI trong tên sản phẩm không tạo điểm nếu AI không làm một nhiệm vụ cần đến khả năng hiểu text, image, speech, context hoặc pattern.
+
+Với mỗi solution, team phải thống nhất:
+
+1. **Why AI?** Nhiệm vụ nào khó xử lý bằng rule hoặc manual workflow?
+2. **Why this AI?** Vì sao model/API/pipeline được chọn phù hợp với input, thời gian và nguồn lực?
+3. **How well does it work?** Team đã test trên những case nào và biết giới hạn ở đâu?
+4. **What can go wrong?** Output sai gây hậu quả gì?
+5. **What is the safeguard?** User review, uncertainty, fallback và privacy được thiết kế thế nào?
+
+Phúc lead model selection, evaluation và failure analysis. Anh chịu trách nhiệm schema validation, error handling và fallback trong application. Linh giúp chuyển technical limitation thành cách giải thích dễ hiểu cho giám khảo.
+
+### 7.5. Presentation & Communication — Finale only
+
+Ở Finale, BTC đánh giá team trình bày idea rõ và thuyết phục đến đâu, đồng thời phản hồi câu hỏi của judges như thế nào.
+
+Linh lead story và pitch flow. Anh demo sản phẩm và trả lời architecture/integration. Phúc trả lời model choice, evaluation và responsible AI. Cả ba phải dùng cùng một cách gọi user, problem và impact; nếu mỗi người mô tả solution khác nhau, giám khảo sẽ thấy team chưa thống nhất.
+
+Một phần trình bày tốt cần:
+
+- mở đầu bằng workplace moment, không mở bằng tech stack;
+- nói problem trong một câu;
+- cho thấy evidence trước khi giới thiệu solution;
+- dành đủ thời gian cho demo;
+- giải thích AI và limitation thẳng thắn;
+- kết thúc bằng thay đổi cụ thể đối với người dùng;
+- trả lời đúng câu hỏi trước khi mở rộng.
+
+### 7.6. Evidence map của team
+
+| Tiêu chí | Team cần đưa ra | Người giữ phần chính | Nơi xuất hiện trong bài nộp |
+|---|---|---|---|
+| Innovation & Impact | Problem evidence, existing gap, before/after, expected outcome | Linh | Problem, gap và impact slides |
+| User-Centred Design & Accessibility | End-user insight, design change, accessibility test | Linh + Anh | Evidence, demo và accessibility slides |
+| Feasibility & Practicality | Architecture, latency, cost, privacy, adoption, roadmap | Anh + Phúc + Linh | Feasibility slide và Q&A |
+| Use of AI | Why AI, evaluation cases, limitation, safeguard, fallback | Phúc + Anh | How it works, AI và risk slides |
+| Presentation & Communication | Story, clear demo, consistent answers | Linh lead, cả team | Finale pitch và Q&A |
+
+### 7.7. Đối chiếu rubric với bốn nhóm đề bài
+
+Bảng này không phải điểm do BTC chấm. Nó giúp team kiểm tra lựa chọn preference bằng bốn tiêu chí quyết định chất lượng bài trước Finale.
+
+| Nhóm | Innovation & Impact | User-Centred Design | Feasibility | Use of AI | Nhận xét |
+|---|---|---|---|---|---|
+| Visual Impairment | Mạnh nếu chọn đúng workplace visual barrier | Mạnh, nhưng phải test screen reader thật | Cao với web + multimodal API | Rất khớp với multimodal/image–text | Phù hợp nhất với đội hình |
+| Neurodivergence | Khá; nhiều chatbot/interview tool đã tồn tại | Có thể rất mạnh nếu insight cụ thể | Rất cao với LLM/RAG | Mạnh, dễ tạo structured output | Lựa chọn số hai; phải tránh generic assistant |
+| Deaf/Hard of Hearing | Khá nếu đi xa hơn live caption | Mạnh khi bám meeting participation | Trung bình do realtime STT/diarization | Mạnh nhưng speech chưa phải thế mạnh team | Khả thi nhưng rủi ro tích hợp cao hơn |
+| Mobility Impairment | Có thể mạnh với problem thật | Phụ thuộc nhiều vào co-design | Thấp hơn nếu cần hardware/fabrication | Tùy problem, không phải lúc nào AI cũng cần | Ít phù hợp nhất với nguồn lực hiện tại |
+
+Nhìn theo rubric, đề xuất **Visual Impairment + Neurodivergence** vẫn giữ nguyên, nhưng lý do không chỉ là “team biết công nghệ này”. Visual có cơ hội cân bằng cả bốn tiêu chí nếu team làm accessibility thật. Neurodivergence có feasibility rất cao nhưng phải bù bằng user evidence và novelty rõ để không trở thành một chatbot quen thuộc.
+
+### 7.8. Rubric review trước khi nộp
+
+Trước khi freeze deck/video, cả team ngồi lại và trả lời năm câu:
+
+1. Nếu bỏ tên sản phẩm và tech stack, problem có còn rõ và đáng giải quyết không?
+2. Team có thể chỉ ra ít nhất một thiết kế đã thay đổi vì end-user evidence không?
+3. Prototype, cost, privacy và roadmap có tạo thành một câu chuyện triển khai thực tế không?
+4. AI có evaluation, limitation và safeguard cụ thể không?
+5. Mỗi thành viên có thể mô tả cùng một user, barrier, solution và impact trong 30 giây không?
 
 ---
 
