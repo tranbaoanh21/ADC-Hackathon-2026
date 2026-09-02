@@ -1,20 +1,22 @@
 # ADC Hackathon 2026 — Tài liệu chung của team
 
-README này là bản briefing để ba thành viên cùng nắm một cách hiểu về ADC Hackathon 2026 trước khi đăng ký và bước vào cuộc thi. Phần đầu tổng hợp thông tin chính thức từ RMIT; phần sau phân tích bốn nhóm đề bài dựa trên năng lực thật của team và đề xuất cách chuẩn bị.
+README này là bản briefing (tài liệu phổ biến thông tin chung) để ba thành viên cùng nắm một cách hiểu về ADC Hackathon 2026 trước khi đăng ký và bước vào cuộc thi. Phần đầu tổng hợp thông tin chính thức từ RMIT; phần sau phân tích bốn nhóm đề bài dựa trên năng lực thật của team và đề xuất cách chuẩn bị.
+
+Các thuật ngữ tiếng Anh khó được chú thích bằng tiếng Việt ở lần xuất hiện đầu tiên hoặc tại phần chúng được dùng nhiều nhất. Bảng thuật ngữ cuối README giúp tra lại nhanh mà không làm phần nội dung chính quá nặng.
 
 Nếu chỉ cần nhớ ba ý, hãy nhớ:
 
-1. Đây là cuộc thi về **accessibility trong môi trường làm việc**, không phải cuộc thi AI thuần túy.
-2. Form yêu cầu chọn **hai trong bốn nhóm khuyết tật**, nhưng BTC sẽ xác nhận nhóm được phân công cuối cùng trước sự kiện; brief cụ thể chỉ được công bố vào Day 1.
-3. Với đội hình hiện tại, team nên chọn **Visual Impairment** và **Neurodivergence**. Trong hai nhóm này, Visual Impairment là lựa chọn khớp năng lực kỹ thuật nhất.
+1. Đây là cuộc thi về **accessibility (khả năng tiếp cận) trong môi trường làm việc**, không phải cuộc thi AI thuần túy.
+2. Form yêu cầu chọn **hai trong bốn nhóm khuyết tật**, nhưng BTC sẽ xác nhận nhóm được phân công cuối cùng trước sự kiện; brief (đề bài/bản yêu cầu) cụ thể chỉ được công bố vào Day 1.
+3. Với đội hình hiện tại, team nên chọn **Visual Impairment (khiếm thị/suy giảm thị lực)** và **Neurodivergence (đa dạng thần kinh)**. Trong hai nhóm này, Visual Impairment là lựa chọn khớp năng lực kỹ thuật nhất.
 
 ---
 
 ## 1. Cuộc thi này thực chất là gì?
 
-ADC là viết tắt của **Accessibility Design Competition**, cuộc thi thường niên do RMIT Việt Nam tổ chức nhằm tìm kiếm những giải pháp giúp môi trường làm việc trở nên hòa nhập hơn. Năm 2026 là mùa thứ sáu và cũng là năm cuộc thi chuyển sang format hackathon ba ngày.
+ADC là viết tắt của **Accessibility Design Competition (Cuộc thi Thiết kế Tiếp cận)**, cuộc thi thường niên do RMIT Việt Nam tổ chức nhằm tìm kiếm những giải pháp giúp môi trường làm việc trở nên hòa nhập hơn. Năm 2026 là mùa thứ sáu và cũng là năm cuộc thi chuyển sang format (hình thức tổ chức) hackathon ba ngày.
 
-Theme năm nay là **AI & Employability**. Hai vế phải đi cùng nhau:
+Theme (chủ đề) năm nay là **AI & Employability (AI và khả năng tham gia, duy trì, phát triển trong việc làm)**. Hai vế phải đi cùng nhau:
 
 - **AI** là công nghệ team sử dụng để xử lý một nhiệm vụ có ý nghĩa.
 - **Employability** là khả năng một người có thể tiếp cận cơ hội việc làm, tham gia tuyển dụng, onboarding, giao tiếp, học việc, thực hiện nhiệm vụ và phát triển trong công việc.
@@ -29,9 +31,9 @@ Thông tin chính thức: [ADC Hackathon 2026](https://industryhub.rmit.edu.vn/A
 
 BTC không giới hạn cuộc thi ở software hoặc hardware. Solution có thể thuộc một hoặc kết hợp nhiều hướng:
 
-- **Attitudinal & Communication Solutions:** cải thiện inclusive hiring, communication practice, wellbeing check-in, workplace policy hoặc corporate process.
-- **Architectural & Industrial Solutions:** adaptive workstation, accessible signage, wayfinding, physical product hoặc cải tạo không gian làm việc.
-- **Technological Solutions:** AI-powered assistive tool, accessible remote/hybrid platform và các công nghệ giúp công việc dễ tiếp cận hơn.
+- **Attitudinal & Communication Solutions (giải pháp về thái độ và giao tiếp):** cải thiện inclusive hiring (tuyển dụng hòa nhập), communication practice (thực hành giao tiếp), wellbeing check-in (theo dõi sức khỏe tinh thần), workplace policy (chính sách nơi làm việc) hoặc corporate process (quy trình doanh nghiệp).
+- **Architectural & Industrial Solutions (giải pháp kiến trúc và công nghiệp):** adaptive workstation (bàn/trạm làm việc thích ứng), accessible signage (biển báo dễ tiếp cận), wayfinding (hỗ trợ định hướng), physical product (sản phẩm vật lý) hoặc cải tạo không gian làm việc.
+- **Technological Solutions (giải pháp công nghệ):** AI-powered assistive tool (công cụ hỗ trợ dùng AI), accessible remote/hybrid platform (nền tảng làm việc từ xa/kết hợp dễ tiếp cận) và các công nghệ giúp công việc dễ tiếp cận hơn.
 
 Team hiện tại phù hợp nhất với Technological Solutions. Tuy vậy, một sản phẩm tốt vẫn có thể kết hợp phần communication/process; chẳng hạn không chỉ giúp một employee hiểu instruction mà còn giúp manager viết yêu cầu rõ và hòa nhập hơn.
 
@@ -41,9 +43,9 @@ Team hiện tại phù hợp nhất với Technological Solutions. Tuy vậy, m�
 
 > Làm một trợ lý AI cho người khiếm thị.
 
-Vấn đề có thể nghiên cứu và prototype:
+Vấn đề có thể nghiên cứu và prototype (nguyên mẫu):
 
-> Một nhân viên khiếm thị đang tham gia buổi weekly review. Đồng nghiệp chia sẻ dashboard chứa nhiều biểu đồ nhưng screen reader không truyền tải được cấu trúc và insight đủ nhanh, khiến họ mất context và khó tham gia thảo luận ngay tại thời điểm đó.
+> Một nhân viên khiếm thị đang tham gia buổi weekly review (họp rà soát hằng tuần). Đồng nghiệp chia sẻ dashboard (bảng điều khiển dữ liệu) chứa nhiều biểu đồ nhưng screen reader (trình đọc màn hình) không truyền tải được cấu trúc và insight (thông tin rút ra quan trọng) đủ nhanh, khiến họ mất context (ngữ cảnh) và khó tham gia thảo luận ngay tại thời điểm đó.
 
 Ở cách thứ hai, team đã biết người dùng là ai, thời điểm nào xảy ra vấn đề, rào cản cụ thể là gì và tác động đến công việc ra sao. Từ đây mới có thể quyết định AI có cần thiết hay không.
 
@@ -60,13 +62,13 @@ Vấn đề có thể nghiên cứu và prototype:
 | Địa điểm | RMIT Saigon South Campus, 702 Nguyễn Văn Linh, phường Tân Hưng, TP.HCM |
 | Quy mô team | Đúng 3 thành viên |
 | Hạn đăng ký | 13/09/2026 |
-| Thông báo shortlist | Chậm nhất 16/09/2026 |
+| Thông báo shortlist (danh sách được chọn) | Chậm nhất 16/09/2026 |
 | Briefing online | 19/09/2026 |
 | Phí tham dự | Miễn phí |
 | Chung kết | Top 8 teams |
 | Bài nộp công khai | Pitch deck và video dưới 5 phút |
 
-Strategic Partners của chương trình là **Katalon** và **P&G**. Sponsors được công bố gồm **Emeralda**, **Boost Juice** và **Cheese Coffee**.
+Strategic Partners (đối tác chiến lược) của chương trình là **Katalon** và **P&G**. Sponsors (nhà tài trợ) được công bố gồm **Emeralda**, **Boost Juice** và **Cheese Coffee**.
 
 ---
 
@@ -77,12 +79,12 @@ Strategic Partners của chương trình là **Katalon** và **P&G**. Sponsors �
 - Mỗi đội có đúng ba người; không nhận đăng ký cá nhân.
 - Ít nhất một thành viên phải là sinh viên higher education hiện tại.
 - Tất cả thành viên từ 18 tuổi trở lên.
-- Early-career professional chỉ hợp lệ nếu tốt nghiệp từ năm 2024 trở về sau.
+- Early-career professional (người mới bắt đầu sự nghiệp) chỉ hợp lệ nếu tốt nghiệp từ năm 2024 trở về sau.
 - Một người chỉ được đăng ký trong một team.
 - Team liên trường và liên ngành được chấp nhận.
 - Sinh viên quốc tế hoặc người tham gia từ ngoài Việt Nam có thể đăng ký nếu đáp ứng điều kiện.
-- Không cần có kinh nghiệm accessibility hoặc design từ trước; Day 1 có workshop nhập môn.
-- Không có registration fee.
+- Không cần có kinh nghiệm accessibility hoặc design (thiết kế) từ trước; Day 1 có workshop (buổi học/thực hành) nhập môn.
+- Không có registration fee (phí đăng ký).
 - BTC không tài trợ chi phí di chuyển và chỗ ở.
 - Thành phần team được cố định sau khi đăng ký. Nếu có người rút, cần liên hệ BTC sớm để được hướng dẫn.
 
@@ -90,7 +92,7 @@ Cả ba thành viên của team đều đang là sinh viên nên đáp ứng đi
 
 ### Form yêu cầu chuẩn bị gì?
 
-Theo trang đăng ký, form mất khoảng 25–30 phút và chỉ cần một đại diện nộp. Trước khi điền, Team Lead nên có:
+Theo trang đăng ký, form mất khoảng 25–30 phút và chỉ cần một đại diện nộp. Trước khi điền, Team Lead (trưởng nhóm/đại diện đăng ký) nên có:
 
 - họ tên, ngày sinh, email và số điện thoại của cả ba người;
 - trường, ngành học và tình trạng sinh viên;
@@ -103,14 +105,14 @@ Form chính thức: [ADC Hackathon 2026 Registration](https://industryhub.rmit.e
 
 Không đưa số điện thoại, ngày sinh hoặc email cá nhân vào repository này. Các thông tin đó chỉ nên trao đổi trong kênh riêng của team và nhập trực tiếp vào form.
 
-### Hai câu Motivation
+### Hai câu Motivation (động lực tham gia)
 
 Form hỏi:
 
 1. **Why does your team want to join ADC Hackathon 2026?** — 100–120 words.
 2. **What does your team hope to learn or gain from this hackathon?** — 80–100 words.
 
-Không có phần nộp proposal, architecture hay product idea ở vòng đăng ký. Vì brief chưa được công bố, câu trả lời Motivation nên tập trung vào động lực, cách ba người bổ trợ nhau, mong muốn học từ end-users và cách team nhìn nhận responsible AI. Việc cố pitch một sản phẩm quá cụ thể ở đây dễ tạo cảm giác team đã chọn công nghệ trước khi hiểu người dùng.
+Không có phần nộp proposal (đề xuất dự án), architecture (kiến trúc hệ thống) hay product idea (ý tưởng sản phẩm) ở vòng đăng ký. Vì brief chưa được công bố, câu trả lời Motivation nên tập trung vào động lực, cách ba người bổ trợ nhau, mong muốn học từ end-users (người dùng trực tiếp) và cách team nhìn nhận responsible AI (AI có trách nhiệm). Việc cố pitch (thuyết phục/trình bày) một sản phẩm quá cụ thể ở đây dễ tạo cảm giác team đã chọn công nghệ trước khi hiểu người dùng.
 
 ### Việc chọn hai nhóm ưu tiên
 
@@ -120,14 +122,14 @@ Form ghi rõ:
 
 Điều này dẫn tới hai mốc khác nhau:
 
-- Trước sự kiện, BTC xác nhận **nhóm khuyết tật** được phân công.
+- Trước sự kiện, BTC xác nhận **nhóm khuyết tật** được phân công (final assignment).
 - Sáng Day 1, BTC mới công bố **competition brief** cụ thể.
 
-Team có thể chuẩn bị kiến thức và công cụ cho nhóm được phân công, nhưng không nên code trước một solution cố định. Câu chữ trên form cũng chưa nói rõ BTC có cam kết assignment cuối cùng luôn nằm trong hai preference hay không; đây là một câu nên hỏi tại briefing.
+Team có thể chuẩn bị kiến thức và công cụ cho nhóm được phân công, nhưng không nên code trước một solution (giải pháp) cố định. Câu chữ trên form cũng chưa nói rõ BTC có cam kết assignment (phân công) cuối cùng luôn nằm trong hai preference (lựa chọn ưu tiên) hay không; đây là một câu nên hỏi tại briefing (buổi phổ biến thông tin).
 
 ### Registration có cạnh tranh
 
-Số chỗ có giới hạn, vì vậy nộp form không đồng nghĩa chắc chắn được tham dự. BTC sẽ review application và thông báo shortlist chậm nhất ngày 16/09. Website không công bố thang điểm shortlist chi tiết, nên team cần viết Motivation rõ ràng, chân thật và thể hiện được giá trị của đội hình liên ngành.
+Số chỗ có giới hạn, vì vậy nộp form không đồng nghĩa chắc chắn được tham dự. BTC sẽ review application (xét hồ sơ đăng ký) và thông báo shortlist chậm nhất ngày 16/09. Website không công bố thang điểm shortlist chi tiết, nên team cần viết Motivation rõ ràng, chân thật và thể hiện được giá trị của đội hình liên ngành.
 
 ---
 
@@ -148,7 +150,7 @@ Website chưa nêu giờ đóng form. Team không nên chờ tới tối 13/09 m
 
 ## 5. Ba ngày hackathon diễn ra như thế nào?
 
-### Day 1 — Learn & Frame
+### Day 1 — Learn & Frame (học và xác định vấn đề)
 
 Buổi sáng có:
 
@@ -171,7 +173,7 @@ Buổi chiều là teamwork time.
 
 Nếu cuối Day 1 team vẫn mô tả sản phẩm bằng một danh sách dài tính năng, scope đang quá rộng.
 
-### Day 2 — Test & Refine
+### Day 2 — Test & Refine (kiểm thử và tinh chỉnh)
 
 Buổi sáng có:
 
@@ -179,7 +181,7 @@ Buổi sáng có:
 - Express Mentoring with Industry Mentors;
 - Technical Consultation.
 
-Đây có thể là phần có giá trị nhất của cuộc thi. Team phải dùng cuộc trò chuyện với end-users để kiểm tra assumption, không phải để tìm lời xác nhận rằng ý tưởng hiện tại đã đúng.
+Đây có thể là phần có giá trị nhất của cuộc thi. Team phải dùng cuộc trò chuyện với end-users để kiểm tra assumption (giả định), không phải để tìm lời xác nhận rằng ý tưởng hiện tại đã đúng.
 
 Nên hỏi về trải nghiệm đã xảy ra:
 
@@ -192,16 +194,16 @@ Nên hỏi về trải nghiệm đã xảy ra:
 
 Không nên hỏi “Anh/chị có thích app của tụi em không?”. Câu hỏi đó dễ dẫn người trả lời và không tạo ra insight đủ cụ thể.
 
-Sau mỗi session, Linh ghi lại ba cột: team đã giả định gì, bằng chứng mới là gì và thiết kế sẽ thay đổi thế nào. Những thay đổi này là evidence rất tốt cho phần User-Centred Design trong pitch.
+Sau mỗi session (phiên trao đổi), Linh ghi lại ba cột: team đã giả định gì, bằng chứng mới là gì và thiết kế sẽ thay đổi thế nào. Những thay đổi này là evidence (bằng chứng) rất tốt cho phần User-Centred Design (thiết kế lấy người dùng làm trung tâm) trong pitch.
 
-### Day 3 — Evaluate & Pitch
+### Day 3 — Evaluate & Pitch (đánh giá và thuyết trình)
 
 Buổi sáng các đội nộp pitch deck và solution video dưới 5 phút. Buổi chiều Top 8 teams vào Finale.
 
-Day 3 nên bắt đầu bằng feature freeze. Những giờ cuối dành cho:
+Day 3 nên bắt đầu bằng feature freeze (dừng thêm tính năng mới). Những giờ cuối dành cho:
 
 - kiểm tra luồng demo;
-- accessibility test;
+- accessibility test (kiểm thử khả năng tiếp cận);
 - quay hoặc hoàn thiện video;
 - chỉnh deck;
 - luyện pitch và Q&A;
@@ -213,14 +215,14 @@ Thêm một tính năng mới sát giờ nộp hiếm khi đáng giá bằng m�
 
 ## 6. Team phải nộp gì?
 
-### Solution Pitch Deck
+### Solution Pitch Deck (bộ slide thuyết trình giải pháp)
 
 Website yêu cầu deck thể hiện tối thiểu:
 
-- problem statement;
-- proposed solution;
-- prototype demonstration;
-- expected impact.
+- problem statement (phát biểu vấn đề);
+- proposed solution (giải pháp đề xuất);
+- prototype demonstration (trình diễn nguyên mẫu);
+- expected impact (tác động kỳ vọng).
 
 Một cấu trúc hợp lý cho team:
 
@@ -239,7 +241,7 @@ Một cấu trúc hợp lý cho team:
 
 Đây là cấu trúc team đề xuất, không phải template bắt buộc từ BTC.
 
-### Solution Video
+### Solution Video (video giới thiệu giải pháp)
 
 Video phải dưới 5 phút, giới thiệu solution và cho thấy nó hoạt động. Phần demo nên chiếm nhiều thời lượng nhất. Một cách chia tương đối:
 
@@ -250,9 +252,9 @@ Video phải dưới 5 phút, giới thiệu solution và cho thấy nó hoạt 
 - 40 giây: AI, accessibility và failure handling;
 - 40 giây: feasibility, impact và closing.
 
-### Prototype ở mức nào là đủ?
+### Prototype (nguyên mẫu) ở mức nào là đủ?
 
-Prototype không cần production-ready, nhưng phải tạo thành một luồng có thật: người dùng đưa input, hệ thống xử lý, AI trả output, output được trình bày theo cách accessible và người dùng hoàn thành được một nhiệm vụ công việc.
+Prototype không cần production-ready (sẵn sàng vận hành thực tế), nhưng phải tạo thành một luồng có thật: người dùng đưa input (dữ liệu đầu vào), hệ thống xử lý, AI trả output (kết quả đầu ra), output được trình bày theo cách accessible và người dùng hoàn thành được một nhiệm vụ công việc.
 
 Figma có thể hỗ trợ kể chuyện, nhưng với năng lực của team, chỉ có Figma mà không có working flow sẽ là một sự lãng phí lợi thế kỹ thuật.
 
@@ -260,13 +262,13 @@ Figma có thể hỗ trợ kể chuyện, nhưng với năng lực của team, c
 
 ## 7. Tiêu chí chấm
 
-RMIT công bố năm tiêu chí. Bốn tiêu chí đầu đánh giá chất lượng của problem, solution và prototype. Tiêu chí thứ năm, **Presentation & Communication**, được ghi rõ là **Finale only**.
+RMIT công bố năm tiêu chí. Bốn tiêu chí đầu đánh giá chất lượng của problem (vấn đề), solution và prototype. Tiêu chí thứ năm, **Presentation & Communication (trình bày và giao tiếp)**, được ghi rõ là **Finale only (chỉ áp dụng ở vòng chung kết)**.
 
-Điều này có một hệ quả thực tế: để vào Top 8, team trước hết phải có một bài làm mạnh ở Innovation, User-Centred Design, Feasibility và Use of AI. Một phần pitch tốt không thể cứu một problem mơ hồ hoặc prototype thiếu bằng chứng ở preliminary round. Khi đã vào Finale, cách trình bày và trả lời giám khảo mới trở thành tiêu chí chấm chính thức bổ sung.
+Điều này có một hệ quả thực tế: để vào Top 8, team trước hết phải có một bài làm mạnh ở Innovation, User-Centred Design, Feasibility và Use of AI. Một phần pitch tốt không thể cứu một problem mơ hồ hoặc prototype thiếu bằng chứng ở preliminary round (vòng sơ loại). Khi đã vào Finale, cách trình bày và trả lời giám khảo mới trở thành tiêu chí chấm chính thức bổ sung.
 
-Website chưa công bố trọng số, score scale, cách cộng điểm giữa các vòng hoặc việc Finale có chấm lại bốn tiêu chí đầu hay không. Phần dưới đây là cách team diễn giải rubric để chuẩn bị, không phải scoring formula của BTC. Nguồn đối chiếu: [Judging Criteria — ADC Hackathon 2026](https://industryhub.rmit.edu.vn/ADC/#judging).
+Website chưa công bố trọng số, score scale (thang điểm), cách cộng điểm giữa các vòng hoặc việc Finale có chấm lại bốn tiêu chí đầu hay không. Phần dưới đây là cách team diễn giải rubric (bộ tiêu chí đánh giá) để chuẩn bị, không phải scoring formula (công thức tính điểm) của BTC. Nguồn đối chiếu: [Judging Criteria — ADC Hackathon 2026](https://industryhub.rmit.edu.vn/ADC/#judging).
 
-### 7.1. Innovation & Impact
+### 7.1. Innovation & Impact (tính đổi mới và tác động)
 
 BTC đánh giá mức độ nguyên bản và tác động của solution đối với một accessibility/employability challenge thật.
 
@@ -286,9 +288,9 @@ Team cần trả lời được:
 - Solution của team khác ở một hoặc hai điểm nào?
 - Before và after có thể quan sát hoặc đo ra sao?
 
-Evidence nên đưa vào deck có thể là user quote, observation, competitor comparison, số bước được giảm, thời gian tiết kiệm hoặc khả năng tham gia công việc được cải thiện. Linh chịu trách nhiệm giữ problem/evidence; Anh và Phúc kiểm tra xem claim về tác động có đúng với prototype hay không.
+Evidence nên đưa vào deck có thể là user quote (trích dẫn người dùng), observation (quan sát), competitor comparison (so sánh giải pháp cạnh tranh), số bước được giảm, thời gian tiết kiệm hoặc khả năng tham gia công việc được cải thiện. Linh chịu trách nhiệm giữ problem/evidence; Anh và Phúc kiểm tra xem claim (khẳng định) về tác động có đúng với prototype hay không.
 
-### 7.2. User-Centred Design & Accessibility
+### 7.2. User-Centred Design & Accessibility (thiết kế lấy người dùng làm trung tâm và khả năng tiếp cận)
 
 BTC xem solution có thực sự hiểu user needs và áp dụng inclusive, accessible design principles hay không.
 
@@ -305,7 +307,7 @@ Evidence mạnh gồm:
 
 Linh lead phần interview và ghi evidence. Anh chịu trách nhiệm accessibility implementation. Phúc bảo đảm AI output phù hợp với cách user muốn tiếp nhận, thay vì chỉ tối ưu metric kỹ thuật.
 
-### 7.3. Feasibility & Practicality
+### 7.3. Feasibility & Practicality (tính khả thi và thực tiễn)
 
 BTC đánh giá solution có thực tế và triển khai được trong điều kiện, nguồn lực ngoài đời hay không.
 
@@ -315,16 +317,16 @@ Một prototype chạy được là điểm khởi đầu, chưa phải toàn b�
 - latency trong một lượt xử lý;
 - chi phí ở quy mô pilot;
 - dữ liệu nào được gửi ra bên ngoài;
-- privacy, consent và retention;
+- privacy (quyền riêng tư), consent (sự đồng thuận) và retention (thời gian lưu dữ liệu);
 - khả năng tích hợp với workflow hiện tại;
 - user hoặc employer phải thay đổi hành vi gì;
-- roadmap từ prototype tới pilot.
+- roadmap (lộ trình triển khai) từ prototype tới pilot (thử nghiệm quy mô nhỏ).
 
-Anh lead architecture, deployment và integration. Phúc chuẩn bị model limitation, latency và cost. Linh phụ trách adoption, stakeholder và implementation roadmap.
+Anh lead architecture, deployment (triển khai hệ thống) và integration (tích hợp). Phúc chuẩn bị model limitation (giới hạn của mô hình), latency (độ trễ) và cost (chi phí). Linh phụ trách adoption (mức độ chấp nhận sử dụng), stakeholder (bên liên quan) và implementation roadmap (lộ trình triển khai).
 
-Một architecture hai service ổn định sẽ thuyết phục hơn năm service chỉ để nhìn phức tạp. Nếu demo dùng external API, team nên có cached sample và giải thích rõ đó là fallback, không giả vờ là live inference.
+Một architecture hai service (dịch vụ phần mềm) ổn định sẽ thuyết phục hơn năm service chỉ để nhìn phức tạp. Nếu demo dùng external API (API bên ngoài), team nên có cached sample (mẫu kết quả lưu sẵn) và giải thích rõ đó là fallback (phương án dự phòng), không giả vờ là live inference (suy luận trực tiếp).
 
-### 7.4. Use of AI
+### 7.4. Use of AI (cách sử dụng AI)
 
 BTC xem AI được tích hợp hiệu quả, phù hợp và có trách nhiệm đến đâu. Việc có chữ AI trong tên sản phẩm không tạo điểm nếu AI không làm một nhiệm vụ cần đến khả năng hiểu text, image, speech, context hoặc pattern.
 
@@ -334,11 +336,11 @@ Với mỗi solution, team phải thống nhất:
 2. **Why this AI?** Vì sao model/API/pipeline được chọn phù hợp với input, thời gian và nguồn lực?
 3. **How well does it work?** Team đã test trên những case nào và biết giới hạn ở đâu?
 4. **What can go wrong?** Output sai gây hậu quả gì?
-5. **What is the safeguard?** User review, uncertainty, fallback và privacy được thiết kế thế nào?
+5. **What is the safeguard?** Safeguard (cơ chế bảo vệ), user review (người dùng kiểm tra), uncertainty (mức độ không chắc chắn), fallback và privacy được thiết kế thế nào?
 
-Phúc lead model selection, evaluation và failure analysis. Anh chịu trách nhiệm schema validation, error handling và fallback trong application. Linh giúp chuyển technical limitation thành cách giải thích dễ hiểu cho giám khảo.
+Phúc lead model selection (lựa chọn mô hình), evaluation (đánh giá) và failure analysis (phân tích trường hợp lỗi). Anh chịu trách nhiệm schema validation (kiểm tra cấu trúc dữ liệu), error handling (xử lý lỗi) và fallback trong application. Linh giúp chuyển technical limitation (giới hạn kỹ thuật) thành cách giải thích dễ hiểu cho giám khảo.
 
-### 7.5. Presentation & Communication — Finale only
+### 7.5. Presentation & Communication — Finale only (trình bày và giao tiếp — chỉ áp dụng ở chung kết)
 
 Ở Finale, BTC đánh giá team trình bày idea rõ và thuyết phục đến đâu, đồng thời phản hồi câu hỏi của judges như thế nào.
 
@@ -354,7 +356,7 @@ Một phần trình bày tốt cần:
 - kết thúc bằng thay đổi cụ thể đối với người dùng;
 - trả lời đúng câu hỏi trước khi mở rộng.
 
-### 7.6. Evidence map của team
+### 7.6. Evidence map (bản đồ bằng chứng) của team
 
 | Tiêu chí | Team cần đưa ra | Người giữ phần chính | Nơi xuất hiện trong bài nộp |
 |---|---|---|---|
@@ -391,47 +393,47 @@ Trước khi freeze deck/video, cả team ngồi lại và trả lời năm câu
 
 ## 8. Team hiện có gì?
 
-### Bảo Anh — Software và AI Integration
+### Bảo Anh — Software và AI Integration (tích hợp AI)
 
-Anh có nền tảng full-stack khá rộng: React/Next.js, Node.js/Express, SQL/NoSQL, Redis, RAG, embeddings, testing, Docker, CI/CD và AWS. Vai trò hợp lý nhất là sở hữu working prototype từ UI tới deployment.
+Anh có nền tảng full-stack (phát triển cả giao diện và máy chủ) khá rộng: React/Next.js, Node.js/Express, SQL/NoSQL, Redis, RAG (tạo câu trả lời có truy xuất nguồn dữ liệu), embeddings (biểu diễn dữ liệu thành vector), testing (kiểm thử), Docker, CI/CD (tích hợp và triển khai liên tục) và AWS. Vai trò hợp lý nhất là sở hữu working prototype (nguyên mẫu hoạt động được) từ UI (giao diện người dùng) tới deployment.
 
 Trong cuộc thi, Anh phụ trách:
 
-- frontend và accessibility implementation;
-- backend/application API;
+- frontend (phần giao diện) và accessibility implementation (triển khai khả năng tiếp cận);
+- backend (phần máy chủ)/application API;
 - tích hợp AI;
 - quản lý input, state, error và fallback;
 - deploy và giữ demo ổn định.
 
-Điểm cần tự nhắc là không mang toàn bộ cloud stack vào một prototype ba ngày. RabbitMQ, Redis hoặc nhiều service chỉ nên xuất hiện khi luồng người dùng thật sự cần.
+Điểm cần tự nhắc là không mang toàn bộ cloud stack (bộ công nghệ đám mây) vào một prototype ba ngày. RabbitMQ, Redis hoặc nhiều service chỉ nên xuất hiện khi luồng người dùng thật sự cần.
 
-### Phương Linh — Product, Research và Pitch
+### Phương Linh — Product, Research và Pitch (sản phẩm, nghiên cứu và thuyết trình)
 
-Linh có kinh nghiệm dẫn dắt tổ chức, điều phối nhiều nhóm, xây proposal, phân tích business case, làm việc với stakeholder và chuẩn bị presentation. Trong team, Linh không chỉ là người “làm slide” mà nên là người giữ problem và scope.
+Linh có kinh nghiệm dẫn dắt tổ chức, điều phối nhiều nhóm, xây proposal, phân tích business case (tình huống kinh doanh), làm việc với stakeholder và chuẩn bị presentation (bài thuyết trình). Trong team, Linh không chỉ là người “làm slide” mà nên là người giữ problem và scope (phạm vi sản phẩm).
 
 Linh phụ trách:
 
 - đọc brief và tổ chức problem framing;
 - chuẩn bị câu hỏi, ghi nhận end-user insight;
-- competitor scan;
+- competitor scan (khảo sát giải pháp cạnh tranh);
 - theo dõi assumption và quyết định;
 - feasibility, impact và roadmap;
 - deck, video narrative, pitch và Q&A.
 
-Phần cần học thêm trước cuộc thi là accessibility research: cách dùng ngôn ngữ tôn trọng, cách hỏi không dẫn dắt và cách chuyển feedback thành design decision.
+Phần cần học thêm trước cuộc thi là accessibility research (nghiên cứu khả năng tiếp cận): cách dùng ngôn ngữ tôn trọng, cách hỏi không dẫn dắt và cách chuyển feedback (phản hồi) thành design decision (quyết định thiết kế).
 
-### Hồng Phúc — Applied AI và Evaluation
+### Hồng Phúc — Applied AI và Evaluation (AI ứng dụng và đánh giá)
 
-Phúc có nền tảng ML/DL và research rõ: multimodal image–text, CNN, ResNet, Transformer, Swin Transformer, NLP/RAG, vector search và model evaluation. Phúc cũng đã quan tâm đến prompt injection, data leakage và security risk trong RAG.
+Phúc có nền tảng ML/DL (học máy/học sâu) và research (nghiên cứu) rõ: multimodal image–text (AI xử lý kết hợp hình ảnh và văn bản), CNN, ResNet, Transformer, Swin Transformer, NLP (xử lý ngôn ngữ tự nhiên)/RAG, vector search (tìm kiếm bằng vector) và model evaluation (đánh giá mô hình). Phúc cũng đã quan tâm đến prompt injection (chèn chỉ dẫn độc hại), data leakage (rò rỉ dữ liệu) và security risk (rủi ro bảo mật) trong RAG.
 
 Phúc phụ trách:
 
 - đánh giá một problem có cần AI không;
 - chọn pretrained model hoặc API;
-- thử inference trên sample thật;
-- preprocessing và structured output;
+- thử inference (chạy mô hình để tạo kết quả) trên sample (mẫu dữ liệu) thật;
+- preprocessing (tiền xử lý) và structured output (đầu ra có cấu trúc);
 - test case, latency, quality và failure mode;
-- responsible AI và limitation;
+- responsible AI và limitation (giới hạn);
 - đưa AI ra khỏi notebook thành component có thể tích hợp.
 
 Trong ba ngày, Phúc không cần chứng minh khả năng train một model mới. Giá trị lớn nhất là chọn được giải pháp AI vừa đủ, kiểm tra nó có đáng tin và giúp Anh đưa nó vào sản phẩm sớm.
@@ -464,10 +466,10 @@ Form cho chọn hai nhóm. Để quyết định, team nên nhìn vào bốn y�
 
 #### Những vấn đề có thể xuất hiện
 
-Trong môi trường làm việc, người mù hoặc low-vision employees có thể gặp khó khăn khi:
+Trong môi trường làm việc, người mù hoặc low-vision employees (nhân viên có thị lực kém) có thể gặp khó khăn khi:
 
 - đồng nghiệp chia sẻ dashboard hoặc slide chứa nhiều biểu đồ;
-- tài liệu scan/PDF không có structure hoặc alt text;
+- tài liệu scan/PDF không có structure (cấu trúc) hoặc alt text (văn bản thay thế cho hình ảnh);
 - một hệ thống nội bộ không tương thích screen reader;
 - thông tin được phân biệt chỉ bằng màu;
 - nội dung visual trong buổi họp thay đổi quá nhanh để người khác mô tả thủ công.
@@ -476,7 +478,7 @@ Không phải mọi người khiếm thị đều cần cùng một output. Có 
 
 #### Vì sao nhóm này hợp với team?
 
-Đây là điểm giao rõ nhất giữa Anh và Phúc. Phúc đã làm image–text generation và multimodal learning; Anh có thể xây upload/capture flow, accessible web interface, backend và deploy. Linh có thể đặt bài toán vào một quy trình công việc rõ thay vì để sản phẩm trở thành image-description tool chung chung.
+Đây là điểm giao rõ nhất giữa Anh và Phúc. Phúc đã làm image–text generation (sinh văn bản từ hình ảnh) và multimodal learning (học đa phương thức); Anh có thể xây upload/capture flow (luồng tải lên/chụp nội dung), accessible web interface (giao diện web dễ tiếp cận), backend và deploy. Linh có thể đặt bài toán vào một quy trình công việc rõ thay vì để sản phẩm trở thành image-description tool (công cụ mô tả hình ảnh) chung chung.
 
 Một prototype visual cũng dễ demo: giám khảo thấy input là chart/document, thấy AI phân tích và thấy output được tổ chức lại cho screen reader. Tuy nhiên demo “dễ nhìn” với giám khảo không đủ; team phải test keyboard và screen reader thật.
 
@@ -484,7 +486,7 @@ Một prototype visual cũng dễ demo: giám khảo thấy input là chart/docu
 
 **Accessible Meeting Visual Assistant**
 
-Người dùng nhận screenshot hoặc nội dung screen-sharing. Hệ thống nhận diện loại nội dung, mô tả insight chính, cho phép hỏi data point cụ thể và trình bày kết quả theo heading/section để screen reader điều hướng.
+Người dùng nhận screenshot (ảnh chụp màn hình) hoặc nội dung screen-sharing (chia sẻ màn hình). Hệ thống nhận diện loại nội dung, mô tả insight chính, cho phép hỏi data point (điểm dữ liệu) cụ thể và trình bày kết quả theo heading/section (tiêu đề/phần nội dung) để screen reader điều hướng.
 
 Điểm khác với image caption thông thường là output phải phục vụ mục tiêu cuộc họp: insight, comparison, trend và uncertainty, không chỉ kể lại những gì có trong ảnh.
 
@@ -496,11 +498,11 @@ Hệ thống nhận một tài liệu training/onboarding, trích xuất structu
 
 - React hoặc Next.js cho accessible UI.
 - Node.js/Express hoặc Next.js server cho application flow.
-- Multimodal API để thử nhanh; pretrained vision-language model nếu brief có lý do cần local inference.
-- OCR cho tài liệu scan.
-- Structured JSON output để frontend không phải parse một đoạn văn tự do.
-- Browser TTS hoặc TTS service nếu user thực sự cần audio.
-- Semantic HTML, keyboard navigation, focus management và screen-reader live status.
+- Multimodal API (API xử lý nhiều loại dữ liệu) để thử nhanh; pretrained vision-language model (mô hình hình ảnh–ngôn ngữ đã huấn luyện sẵn) nếu brief có lý do cần local inference (chạy suy luận tại máy).
+- OCR (nhận dạng ký tự quang học) cho tài liệu scan.
+- Structured JSON output (đầu ra JSON có cấu trúc) để frontend không phải parse (tự phân tích) một đoạn văn tự do.
+- Browser TTS hoặc TTS service (dịch vụ chuyển văn bản thành giọng nói) nếu user thực sự cần audio.
+- Semantic HTML (HTML có cấu trúc ngữ nghĩa), keyboard navigation (điều hướng bằng bàn phím), focus management (quản lý điểm đang được chọn) và screen-reader live status (trạng thái được trình đọc màn hình thông báo tức thời).
 
 Không cần database nếu demo chỉ xử lý một input. Không cần tách Python service nếu external API đã đủ tốt.
 
@@ -522,22 +524,22 @@ Một thiết kế có trách nhiệm nên cho user xem uncertainty, kiểm tra 
 
 #### Những vấn đề có thể xuất hiện
 
-Neurodivergence là một phạm vi rộng, có thể liên quan tới autism, ADHD và nhiều profile khác. Team không được coi đây là một nhóm có nhu cầu đồng nhất.
+Neurodivergence là một phạm vi rộng, có thể liên quan tới autism (tự kỷ), ADHD (rối loạn tăng động giảm chú ý) và nhiều profile (đặc điểm/nhu cầu cá nhân) khác. Team không được coi đây là một nhóm có nhu cầu đồng nhất.
 
 Một số rào cản trong công việc có thể là:
 
 - yêu cầu mơ hồ, không rõ deadline hoặc definition of done;
 - onboarding material quá dài và thiếu cấu trúc;
-- context switching liên tục;
+- context switching (chuyển đổi qua lại giữa nhiều ngữ cảnh công việc) liên tục;
 - interview không predictable;
-- giao diện có quá nhiều notification hoặc cognitive load;
+- giao diện có quá nhiều notification (thông báo) hoặc cognitive load (tải nhận thức);
 - expectation và quy ước giao tiếp không được nói rõ.
 
 #### Vì sao nhóm này hợp với team?
 
-Anh và Phúc đều đã làm RAG, embeddings và LLM-related work. Linh có trải nghiệm thực tế với onboarding guideline, training material, planning và organizational communication. Team có thể hiểu cả hai phía: employee cần clarity và manager/employer cần một workflow dễ áp dụng.
+Anh và Phúc đều đã làm RAG, embeddings và LLM-related work (công việc liên quan mô hình ngôn ngữ lớn). Linh có trải nghiệm thực tế với onboarding guideline (hướng dẫn hội nhập nhân sự mới), training material (tài liệu đào tạo), planning (lập kế hoạch) và organizational communication (giao tiếp trong tổ chức). Team có thể hiểu cả hai phía: employee cần clarity (sự rõ ràng) và manager/employer cần một workflow (quy trình làm việc) dễ áp dụng.
 
-Nhóm này dễ prototype hơn Visual vì structured LLM output có thể hoàn thành nhanh. Nhưng cũng dễ rơi vào generic chatbot hoặc productivity app không còn đặc trưng accessibility.
+Nhóm này dễ prototype hơn Visual vì structured LLM output (đầu ra LLM có cấu trúc) có thể hoàn thành nhanh. Nhưng cũng dễ rơi vào generic chatbot (chatbot chung chung) hoặc productivity app (ứng dụng năng suất) không còn đặc trưng accessibility.
 
 #### Hai hướng đáng cân nhắc
 
@@ -546,10 +548,10 @@ Nhóm này dễ prototype hơn Visual vì structured LLM output có thể hoàn 
 Hệ thống nhận một email hoặc task description, sau đó tách thành:
 
 - mục tiêu;
-- definition of done;
+- definition of done (điều kiện để nhiệm vụ được xem là hoàn tất);
 - priority;
 - deadline;
-- dependency;
+- dependency (phần việc phụ thuộc);
 - điểm còn mơ hồ;
 - câu hỏi cần làm rõ với manager.
 
@@ -557,7 +559,7 @@ Người dùng phải được review và sửa output. AI không nên tự suy 
 
 **Accessible Onboarding Assistant**
 
-Hệ thống biến tài liệu nội bộ thành từng bước, plain language và optional details. RAG chỉ cần thiết nếu người dùng phải hỏi dựa trên nhiều tài liệu nguồn; nếu chỉ chuyển một instruction thành structure, gọi LLM với JSON schema là đủ.
+Hệ thống biến tài liệu nội bộ thành từng bước, plain language (ngôn ngữ đơn giản, trực tiếp) và optional details (chi tiết tùy chọn). RAG chỉ cần thiết nếu người dùng phải hỏi dựa trên nhiều tài liệu nguồn; nếu chỉ chuyển một instruction thành structure, gọi LLM với JSON schema (khuôn cấu trúc dữ liệu JSON) là đủ.
 
 #### Công nghệ phù hợp
 
@@ -571,7 +573,7 @@ Hệ thống biến tài liệu nội bộ thành từng bước, plain language
 #### Rủi ro phải nói trước
 
 - Khái quát hóa rằng tất cả autistic/ADHD users có cùng nhu cầu.
-- Biến preference thành medical profiling.
+- Biến preference thành medical profiling (lập hồ sơ y tế/sức khỏe dựa trên suy đoán).
 - Employer dùng sản phẩm để “sửa” con người thay vì cải thiện environment.
 - AI diễn giải sai instruction.
 - Tin nhắn công việc chứa dữ liệu nhạy cảm.
@@ -582,26 +584,26 @@ Sản phẩm không được chẩn đoán hoặc yêu cầu người dùng khai
 
 **Đây là lựa chọn số hai.** Team có thể build nhanh và Linh có lợi thế domain rõ. Điều kiện để làm tốt là phải tìm được insight đủ cụ thể, tránh lặp lại các interview coach hoặc task chatbot đã rất phổ biến.
 
-### 9.3. Deaf or Hard of Hearing
+### 9.3. Deaf or Hard of Hearing (người điếc hoặc suy giảm thính lực)
 
 #### Những vấn đề có thể xuất hiện
 
 - cuộc họp có tốc độ nhanh;
-- transcript không cho biết ai đang nói;
-- câu hỏi, quyết định và action item bị chìm trong transcript;
+- transcript (bản chép lời) không cho biết ai đang nói;
+- câu hỏi, quyết định và action item (việc cần thực hiện) bị chìm trong transcript;
 - video training thiếu caption tốt;
 - notification chỉ dựa vào âm thanh;
-- trao đổi spontaneous khó theo kịp.
+- trao đổi spontaneous (phát sinh tức thời) khó theo kịp.
 
-Một solution tốt không nhất thiết phải dịch sign language. Team có thể làm meeting participation assistant: STT tạo transcript, speaker diarization xác định người nói, LLM tách decision/question/action item và UI hiển thị theo thời gian thực.
+Một solution tốt không nhất thiết phải dịch sign language (ngôn ngữ ký hiệu). Team có thể làm meeting participation assistant (trợ lý tham gia cuộc họp): STT (chuyển giọng nói thành văn bản) tạo transcript, speaker diarization (phân tách/xác định người nói) xác định người nói, LLM tách decision/question/action item và UI hiển thị theo thời gian thực.
 
 #### Mức phù hợp
 
-Anh có thể xây real-time web interface; Phúc có nền tảng NLP để xử lý transcript. Tuy vậy CV chưa cho thấy kinh nghiệm Speech AI hoặc speaker diarization, nên phần rủi ro kỹ thuật cao hơn hai nhóm trên. Nếu được phân công, cách thực tế là dùng pretrained speech service thay vì tự train model.
+Anh có thể xây real-time web interface (giao diện web thời gian thực); Phúc có nền tảng NLP để xử lý transcript. Tuy vậy CV chưa cho thấy kinh nghiệm Speech AI (AI xử lý tiếng nói) hoặc speaker diarization, nên phần rủi ro kỹ thuật cao hơn hai nhóm trên. Nếu được phân công, cách thực tế là dùng pretrained speech service (dịch vụ giọng nói dùng mô hình huấn luyện sẵn) thay vì tự train model.
 
 Đây là lựa chọn thứ ba: làm được nhưng không phải lợi thế rõ nhất.
 
-### 9.4. Mobility Impairment
+### 9.4. Mobility Impairment (khuyết tật vận động)
 
 #### Những vấn đề có thể xuất hiện
 
@@ -611,7 +613,7 @@ Anh có thể xây real-time web interface; Phúc có nền tảng NLP để x�
 - cần alternative input, switch input hoặc voice control;
 - di chuyển và wayfinding trong workplace.
 
-Team vẫn có thể làm software, ví dụ voice-controlled workflow hoặc alternative input. Tuy nhiên nhiều bài toán mobility mạnh thường cần sensor, embedded system, mechanical design, electronics hoặc fabrication. Ba CV hiện không cho thấy năng lực này.
+Team vẫn có thể làm software, ví dụ voice-controlled workflow (quy trình điều khiển bằng giọng nói) hoặc alternative input (phương thức nhập thay thế). Tuy nhiên nhiều bài toán mobility mạnh thường cần sensor (cảm biến), embedded system (hệ thống nhúng), mechanical design (thiết kế cơ khí), electronics (điện tử) hoặc fabrication (chế tạo). Ba CV hiện không cho thấy năng lực này.
 
 Nếu chọn Mobility, team sẽ phải tránh cạnh tranh trực diện bằng hardware và tìm một problem software-first rất cụ thể. So với ba nhóm còn lại, đây là lựa chọn rủi ro nhất.
 
@@ -635,7 +637,7 @@ Nếu chọn Mobility, team sẽ phải tránh cạnh tranh trực diện bằng
 
 ## 10. Cách Anh và Phúc nên làm việc với nhau
 
-Điểm dễ gây trễ nhất là Anh làm xong app, Phúc làm xong notebook rồi đến cuối mới phát hiện hai phần không nối được. Hai người nên thống nhất input/output contract ngay sau khi chốt vertical slice.
+Điểm dễ gây trễ nhất là Anh làm xong app, Phúc làm xong notebook (môi trường thử nghiệm code/mô hình) rồi đến cuối mới phát hiện hai phần không nối được. Hai người nên thống nhất input/output contract (quy ước dữ liệu vào/ra) ngay sau khi chốt vertical slice (luồng chức năng cốt lõi chạy xuyên suốt).
 
 Ví dụ với Structured Work Instruction Assistant:
 
@@ -654,11 +656,11 @@ Ví dụ với Structured Work Instruction Assistant:
 }
 ```
 
-Anh có thể dựng UI bằng mock response này trong khi Phúc thử model/prompt. Phúc có thể đổi model mà không làm vỡ frontend, miễn là schema giữ nguyên.
+Anh có thể dựng UI bằng mock response (kết quả giả lập) này trong khi Phúc thử model/prompt (mô hình/chỉ dẫn cho AI). Phúc có thể đổi model mà không làm vỡ frontend, miễn là schema (khuôn dữ liệu) giữ nguyên.
 
 ### Kiến trúc nên ưu tiên
 
-Nếu external AI API đủ tốt:
+Nếu external AI API (API AI từ nhà cung cấp bên ngoài) đủ tốt:
 
 ```text
 React/Next.js UI
@@ -680,7 +682,7 @@ Python/FastAPI inference service
 Pretrained model
 ```
 
-Không cần tách Python service chỉ để architecture nhìn “đẹp”. Mỗi service thêm vào là thêm một điểm có thể hỏng trong demo.
+Không cần tách Python service chỉ để architecture nhìn “đẹp”. Mỗi service thêm vào là thêm một điểm có thể hỏng trong demo (phần trình diễn).
 
 ### Những thứ phải test chung
 
@@ -690,7 +692,7 @@ Không cần tách Python service chỉ để architecture nhìn “đẹp”. M
 - latency với demo input;
 - error/status có được screen reader đọc hay không;
 - cached output khi mất mạng;
-- API key không nằm ở frontend hoặc Git.
+- API key (khóa truy cập API) không nằm ở frontend hoặc Git.
 
 ---
 
@@ -700,18 +702,18 @@ Chuẩn bị capability, không chuẩn bị solution.
 
 ### Bảo Anh
 
-- một React/Next.js starter gọn;
-- accessible form, modal, focus và status components;
+- một React/Next.js starter (bộ khung dự án ban đầu) gọn;
+- accessible form, modal (hộp thoại), focus và status components (thành phần trạng thái) dễ tiếp cận;
 - file/image upload flow;
 - API wrapper có schema validation;
-- mock mode để frontend không phụ thuộc AI service;
+- mock mode (chế độ dùng dữ liệu giả lập) để frontend không phụ thuộc AI service;
 - một deploy workflow đã chạy thử.
 
 ### Hồng Phúc
 
 - thử một multimodal API/model với chart hoặc document;
 - thử LLM structured output;
-- chuẩn bị evaluation sheet 5–10 cases;
+- chuẩn bị evaluation sheet (bảng đánh giá) gồm 5–10 cases (trường hợp thử nghiệm);
 - đo latency và ghi failure cases;
 - biết cách expose inference qua endpoint nếu cần Python;
 - chuẩn bị cách giải thích model choice và limitation.
@@ -727,30 +729,30 @@ Chuẩn bị capability, không chuẩn bị solution.
 
 ### Mini-hackathon nên làm trước
 
-Dùng fake brief:
+Dùng fake brief (đề bài giả lập):
 
 > Improve participation of visually impaired employees during a data-heavy weekly meeting.
 
-Trong 3–4 giờ, team thử đi đủ vòng: đọc problem, chọn một barrier, làm vertical slice và pitch ba phút. Mục tiêu không phải có sản phẩm đẹp mà để biết ba người ra quyết định, handoff và tích hợp với nhau như thế nào.
+Trong 3–4 giờ, team thử đi đủ vòng: đọc problem, chọn một barrier (rào cản), làm vertical slice và pitch ba phút. Mục tiêu không phải có sản phẩm đẹp mà để biết ba người ra quyết định, handoff (bàn giao công việc) và tích hợp với nhau như thế nào.
 
 ---
 
 ## 12. Accessibility tối thiểu cho web prototype
 
-Team nên học WCAG theo bốn nguyên tắc POUR:
+Team nên học WCAG (Web Content Accessibility Guidelines — Hướng dẫn về khả năng tiếp cận nội dung web) theo bốn nguyên tắc POUR:
 
-- **Perceivable:** thông tin có nhiều cách tiếp nhận; image có alt text, video có caption, contrast đủ.
-- **Operable:** dùng keyboard được, focus rõ, không keyboard trap.
-- **Understandable:** wording rõ, flow predictable, error message dễ hiểu.
-- **Robust:** semantic HTML và tương thích assistive technology.
+- **Perceivable (có thể cảm nhận):** thông tin có nhiều cách tiếp nhận; image có alt text, video có caption (phụ đề), contrast (độ tương phản) đủ.
+- **Operable (có thể thao tác):** dùng keyboard được, focus rõ, không keyboard trap (kẹt điều hướng bàn phím).
+- **Understandable (dễ hiểu):** wording (cách diễn đạt) rõ, flow predictable (luồng có thể đoán trước), error message (thông báo lỗi) dễ hiểu.
+- **Robust (tương thích bền vững):** semantic HTML và tương thích assistive technology (công nghệ hỗ trợ).
 
 Đối với prototype, ít nhất cần kiểm tra:
 
-- heading hierarchy;
-- label cho form control;
+- heading hierarchy (cấu trúc phân cấp tiêu đề);
+- label (nhãn mô tả) cho form control (trường điều khiển biểu mẫu);
 - button/link có tên rõ;
-- tab order và visible focus;
-- status loading/success/error có live announcement;
+- tab order (thứ tự di chuyển bằng phím Tab) và visible focus (dấu hiệu chọn có thể nhìn thấy);
+- status loading/success/error có live announcement (thông báo tức thời cho công nghệ hỗ trợ);
 - không dùng màu làm tín hiệu duy nhất;
 - text resize không làm vỡ flow;
 - target user có thể hoàn thành core task mà không cần chuột nếu relevant.
@@ -763,7 +765,7 @@ Tham khảo:
 
 ---
 
-## 13. Responsible AI
+## 13. Responsible AI (AI có trách nhiệm)
 
 AI trong accessibility có thể gây hại nếu output sai nhưng giao diện trình bày như sự thật. Trước khi pitch, team phải trả lời được:
 
@@ -777,13 +779,13 @@ AI trong accessibility có thể gây hại nếu output sai nhưng giao diện 
 
 Một số giới hạn nội bộ:
 
-- không dùng AI để chẩn đoán disability;
+- không dùng AI để chẩn đoán disability (tình trạng khuyết tật);
 - không khẳng định cảm xúc hoặc ý định từ khuôn mặt;
 - không tự động đưa ra quyết định tuyển dụng;
 - không dùng dữ liệu cá nhân thật trong demo;
-- không commit API key;
-- không claim 100% accuracy;
-- không giấu việc demo đang dùng cached fallback.
+- không commit (ghi vào lịch sử mã nguồn) API key;
+- không claim 100% accuracy (khẳng định độ chính xác tuyệt đối);
+- không giấu việc demo đang dùng cached fallback (kết quả dự phòng lưu sẵn).
 
 ---
 
@@ -805,7 +807,7 @@ Word count: 100.
 
 Trước khi nộp, cả ba cần đọc lại và xác nhận:
 
-- không claim lived experience mà team không có;
+- không claim lived experience (trải nghiệm sống trực tiếp) mà team không có;
 - không biến đoạn Motivation thành product pitch;
 - thể hiện rõ accessibility, employability và collaboration;
 - chọn từ ngữ mà cả ba có thể giải thích nếu được hỏi.
@@ -816,12 +818,12 @@ Trước khi nộp, cả ba cần đọc lại và xác nhận:
 
 ### Hạng nhất
 
-- Gift voucher 15.000.000 VND từ ADC Organiser.
-- Cash prize 9.000.000 VND từ Emeralda.
+- Gift voucher (phiếu quà tặng) 15.000.000 VND từ ADC Organiser.
+- Cash prize (giải thưởng tiền mặt) 9.000.000 VND từ Emeralda.
 - Ba voucher nghỉ dưỡng tại Emeralda Resort Tam Cốc.
-- P&G: được shortlist cho Dream Internship và vào Aptitude Test Round; non-students được xem xét cơ hội tương đương.
-- Katalon: fast-track tới Hiring Manager interview, bỏ qua CV screening và HR interview, theo điều kiện áp dụng.
-- Mỗi thành viên có một buổi mentoring 1:1 kéo dài hai giờ với Katalon mentor.
+- P&G: được shortlist cho Dream Internship và vào Aptitude Test Round (vòng kiểm tra năng lực); non-students được xem xét cơ hội tương đương.
+- Katalon: fast-track (được đi nhanh/bỏ qua một số vòng) tới Hiring Manager interview (phỏng vấn với quản lý tuyển dụng), bỏ qua CV screening (vòng lọc CV) và HR interview (phỏng vấn nhân sự), theo điều kiện áp dụng.
+- Mỗi thành viên có một buổi mentoring 1:1 (cố vấn cá nhân) kéo dài hai giờ với Katalon mentor.
 
 ### Hạng nhì
 
@@ -848,17 +850,17 @@ Career opportunities và prizes chịu điều kiện riêng của BTC và đố
 
 ## 16. Sở hữu trí tuệ và quy định bài làm
 
-Theo Terms & Conditions công khai:
+Theo Terms & Conditions (Điều khoản và Điều kiện) công khai:
 
-- bài nộp phải là original work của team;
-- plagiarism hoặc dùng trái phép third-party IP có thể dẫn tới disqualification;
-- team tự chịu trách nhiệm về copyright, trademark, patent và trade secret;
+- bài nộp phải là original work (sản phẩm nguyên gốc) của team;
+- plagiarism (đạo văn/sao chép) hoặc dùng trái phép third-party IP (sở hữu trí tuệ của bên thứ ba) có thể dẫn tới disqualification (loại khỏi cuộc thi);
+- team tự chịu trách nhiệm về copyright (bản quyền), trademark (nhãn hiệu), patent (bằng sáng chế) và trade secret (bí mật thương mại);
 - quyền sở hữu idea, concept và solution vẫn thuộc về team;
-- BTC không yêu cầu chuyển giao ownership;
+- BTC không yêu cầu chuyển giao ownership (quyền sở hữu);
 - các đội có thể độc lập phát triển idea giống nhau;
 - việc tiếp tục phát triển hoặc thương mại hóa sau cuộc thi là quyết định và trách nhiệm của team.
 
-Team có thể dùng open-source library, pretrained model hoặc API nếu tuân thủ license và không sao chép nguyên một solution có sẵn. Những điểm chưa rõ như AI-generated code, generic starter repo và yêu cầu disclose model/dataset nên hỏi lại trong briefing.
+Team có thể dùng open-source library (thư viện mã nguồn mở), pretrained model (mô hình huấn luyện sẵn) hoặc API nếu tuân thủ license (giấy phép sử dụng) và không sao chép nguyên một solution có sẵn. Những điểm chưa rõ như AI-generated code (mã do AI tạo), generic starter repo (kho mã khởi tạo dùng chung) và yêu cầu disclose (khai báo) model/dataset (mô hình/tập dữ liệu) nên hỏi lại trong briefing.
 
 ---
 
@@ -885,19 +887,19 @@ Team có thể dùng open-source library, pretrained model hoặc API nếu tuâ
 
 ### The Great Musica — Quán quân 2024
 
-Team xây website thư viện bản nhạc Việt bằng Braille cho người mù và khiếm thị, kèm khả năng chuyển standard music sheet. Một website vẫn có thể thắng khi nhu cầu đủ cụ thể và accessibility nằm ở trung tâm sản phẩm.
+Team xây website thư viện bản nhạc Việt bằng Braille (chữ nổi) cho người mù và khiếm thị, kèm khả năng chuyển standard music sheet (bản nhạc tiêu chuẩn). Một website vẫn có thể thắng khi nhu cầu đủ cụ thể và accessibility nằm ở trung tâm sản phẩm.
 
 ### Lexopia — Á quân 2024
 
-Ba sinh viên Business xây ứng dụng hỗ trợ dyslexic professionals đọc và viết trong workplace, dùng Microsoft Azure AI và Copilot. Team không cần tự train model để tạo ra solution mạnh.
+Ba sinh viên Business xây ứng dụng hỗ trợ dyslexic professionals (người đi làm mắc chứng khó đọc) đọc và viết trong workplace, dùng Microsoft Azure AI và Copilot. Team không cần tự train model để tạo ra solution mạnh.
 
 ### AllStep — Quán quân 2025
 
-Team xây smart walker cho người cerebral palsy với smart braking và computer vision. Ý tưởng bắt nguồn từ trải nghiệm thật trong gia đình thành viên. Lợi thế không chỉ là hardware mà là sự hiểu biết sâu về problem và community.
+Team xây smart walker (khung tập đi thông minh) cho người cerebral palsy (bại não) với smart braking (phanh thông minh) và computer vision (thị giác máy tính). Ý tưởng bắt nguồn từ trải nghiệm thật trong gia đình thành viên. Lợi thế không chỉ là hardware (phần cứng) mà là sự hiểu biết sâu về problem và community (cộng đồng).
 
 ### NeuroAICC — Á quân 2025
 
-Team gồm hai Software Engineering students và một Digital Communications/Multimedia Design student, xây nền tảng song ngữ hỗ trợ autistic adults chuẩn bị phỏng vấn. Sản phẩm được co-create với autistic individuals, caregivers và professionals. Cấu hình này khá gần với đội hình hiện tại và cho thấy communication/product member có vai trò lớn như thế nào.
+Team gồm hai Software Engineering students và một Digital Communications/Multimedia Design student, xây nền tảng song ngữ hỗ trợ autistic adults (người trưởng thành tự kỷ) chuẩn bị phỏng vấn. Sản phẩm được co-create (đồng sáng tạo) với autistic individuals, caregivers (người chăm sóc) và professionals (chuyên gia). Cấu hình này khá gần với đội hình hiện tại và cho thấy communication/product member có vai trò lớn như thế nào.
 
 ### 7 Rings và InSight — Đồng hạng ba 2025
 
@@ -955,6 +957,57 @@ Nguồn:
 Hai nhóm nên chọn là **Visual Impairment** và **Neurodivergence**. Visual Impairment đứng trước vì tận dụng trực tiếp kinh nghiệm multimodal của Phúc và khả năng product integration của Anh. Neurodivergence đứng thứ hai vì team có LLM/RAG và Linh hiểu organizational communication, nhưng cần research cẩn thận để tránh một chatbot quá chung.
 
 Cuối cùng, lựa chọn nhóm chỉ là bước đầu. Thứ quyết định kết quả vẫn là team có tìm đúng một barrier trong workplace, kiểm chứng nó với end-user, dùng AI vừa đủ và đưa ra được một prototype mà chính target user có thể sử dụng hay không.
+
+---
+
+## 21. Bảng thuật ngữ tra nhanh
+
+| Thuật ngữ | Chú thích tiếng Việt |
+|---|---|
+| Accessibility | Khả năng một sản phẩm, dịch vụ hoặc môi trường có thể được sử dụng bởi nhiều nhóm người, bao gồm người khuyết tật |
+| Employability | Khả năng tiếp cận cơ hội, tham gia, duy trì và phát triển trong việc làm |
+| Brief | Đề bài hoặc bản mô tả yêu cầu |
+| Shortlist | Danh sách ứng viên/đội được chọn qua vòng xét ban đầu |
+| Assignment | Nhóm hoặc nhiệm vụ được BTC phân công |
+| End-user | Người trực tiếp sử dụng sản phẩm |
+| User-centred design | Thiết kế lấy nhu cầu, bối cảnh và phản hồi của người dùng làm trung tâm |
+| Evidence | Bằng chứng như phỏng vấn, quan sát, test result hoặc dữ liệu |
+| Assumption | Giả định chưa được kiểm chứng |
+| Validation | Quá trình kiểm chứng giả định hoặc giải pháp |
+| Scope | Phạm vi vấn đề và tính năng team quyết định xử lý |
+| Feasibility | Mức độ khả thi khi triển khai trong thực tế |
+| Stakeholder | Cá nhân/tổ chức có liên quan hoặc bị ảnh hưởng bởi giải pháp |
+| Prototype | Nguyên mẫu dùng để kiểm tra luồng và chứng minh giải pháp |
+| Vertical slice | Một luồng chức năng nhỏ nhưng chạy xuyên suốt từ input tới output |
+| Feature freeze | Thời điểm dừng thêm tính năng để ổn định bài nộp |
+| Fallback | Phương án dự phòng khi model, API hoặc demo chính gặp lỗi |
+| Full-stack | Phát triển cả frontend và backend |
+| Frontend / Backend | Phần giao diện người dùng / phần xử lý phía máy chủ |
+| API | Giao diện để các phần mềm hoặc service trao đổi dữ liệu |
+| Multimodal AI | AI có thể xử lý kết hợp nhiều dạng dữ liệu như văn bản, hình ảnh và âm thanh |
+| OCR | Công nghệ nhận dạng chữ trong ảnh hoặc tài liệu scan |
+| STT / TTS | Chuyển giọng nói thành văn bản / chuyển văn bản thành giọng nói |
+| Speaker diarization | Phân tách và xác định từng người nói trong audio |
+| RAG | Kỹ thuật cho AI truy xuất tài liệu liên quan trước khi tạo câu trả lời |
+| Embedding | Biểu diễn dữ liệu thành vector số để so sánh hoặc tìm kiếm |
+| Vector search | Tìm kiếm nội dung dựa trên mức độ tương đồng của vector |
+| Structured output | Đầu ra theo cấu trúc cố định, thường là JSON, thay vì văn bản tự do |
+| Schema validation | Kiểm tra dữ liệu có đúng các trường và kiểu đã quy định hay không |
+| Inference | Chạy model đã có để tạo dự đoán hoặc kết quả |
+| Latency | Thời gian chờ từ khi gửi yêu cầu đến khi nhận kết quả |
+| Pretrained model | Mô hình đã được huấn luyện trước và có thể tái sử dụng |
+| Prompt injection | Cách chèn chỉ dẫn độc hại để làm AI bỏ qua quy tắc hoặc tiết lộ dữ liệu |
+| Data leakage | Việc dữ liệu nhạy cảm bị lộ ngoài phạm vi cho phép |
+| Screen reader | Phần mềm đọc nội dung và cấu trúc giao diện thành giọng nói hoặc chữ nổi |
+| Alt text | Văn bản thay thế mô tả nội dung hoặc chức năng của hình ảnh |
+| Semantic HTML | HTML dùng đúng thẻ theo ý nghĩa để browser và công nghệ hỗ trợ hiểu cấu trúc |
+| Keyboard navigation | Sử dụng giao diện bằng bàn phím mà không cần chuột |
+| Cognitive load | Mức độ thông tin và nỗ lực nhận thức mà người dùng phải xử lý |
+| Assistive technology | Công nghệ hỗ trợ như screen reader, switch input hoặc thiết bị trợ giúp |
+| WCAG / POUR | Bộ hướng dẫn accessibility cho web / bốn nguyên tắc Perceivable, Operable, Understandable, Robust |
+| Original work | Sản phẩm nguyên gốc do team thực hiện |
+| Third-party IP | Sở hữu trí tuệ thuộc về một cá nhân hoặc tổ chức bên ngoài team |
+| Open source / License | Mã nguồn mở / điều kiện pháp lý quy định cách được phép sử dụng |
 
 ---
 
