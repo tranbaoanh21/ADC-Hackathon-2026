@@ -1,8 +1,18 @@
 # ADC Hackathon 2026 — Tài liệu chung của team
 
-README này là bản briefing (tài liệu phổ biến thông tin chung) để ba thành viên cùng nắm một cách hiểu về ADC Hackathon 2026 trước khi đăng ký và bước vào cuộc thi. Phần đầu tổng hợp thông tin chính thức từ RMIT; phần sau phân tích bốn nhóm đề bài dựa trên năng lực thật của team và đề xuất cách chuẩn bị.
+README này là tài liệu trung tâm để ba thành viên cùng nắm một cách hiểu về ADC Hackathon 2026 trước khi đăng ký và bước vào cuộc thi. File tổng hợp thể lệ công khai, timeline (mốc thời gian), các vòng, bài nộp, tiêu chí chấm, đội hình, cách chọn nhóm đề bài và kế hoạch chuẩn bị. Khi thông tin trong ghi chú cũ mâu thuẫn với README, ưu tiên README và nguồn chính thức được dẫn ở cuối file.
 
 Các thuật ngữ tiếng Anh khó được chú thích bằng tiếng Việt ở lần xuất hiện đầu tiên hoặc tại phần chúng được dùng nhiều nhất. Bảng thuật ngữ cuối README giúp tra lại nhanh mà không làm phần nội dung chính quá nặng.
+
+### Ba tài liệu chính trong workspace
+
+| Tài liệu | Dùng để làm gì? | Khi nào nên đọc? |
+|---|---|---|
+| `README.md` | Nguồn thông tin chung và toàn diện về ADC 2026 dành cho cả team | Cả ba người đọc trước khi đăng ký và dùng làm checklist trong cuộc thi |
+| [`ADC_Past_Winners_Technical_Review.md`](./ADC_Past_Winners_Technical_Review.md) | Tổng hợp các đội đoạt giải tìm được từ nguồn công khai, phân tích problem, solution, technical approach (hướng kỹ thuật) và bài học | Đọc khi muốn hiểu mặt bằng bài mạnh và tránh lặp lại giải pháp cũ |
+| [`ADC_2026_Competitive_Idea_Portfolio.md`](./ADC_2026_Competitive_Idea_Portfolio.md) | Danh mục nhiều hướng ý tưởng cạnh tranh cho bốn nhóm, kèm shortlist, MVP (phiên bản tối thiểu), AI, demo, rủi ro và cách ghi điểm | Dùng để brainstorm sau khi nhận assignment/brief; không xem là đề đã chốt |
+
+Hai file chuyên đề không thay thế README: file winners là tài liệu nghiên cứu lịch sử, còn portfolio là ngân hàng giả thuyết để thảo luận. Brief chính thức và insight từ end-user vẫn có quyền làm team đổi hướng.
 
 Nếu chỉ cần nhớ ba ý, hãy nhớ:
 
@@ -462,6 +472,34 @@ Form cho chọn hai nhóm. Để quyết định, team nên nhìn vào bốn y�
 - AI có vai trò thật sự hay chỉ là phần trang trí;
 - sản phẩm có thể được làm accessible đối với chính target user không.
 
+### Cách chọn problem sau khi nhận brief
+
+Dù được phân nhóm nào, team nên dùng chuỗi **One Person → One Moment → One Barrier → One Solution** (một người → một thời điểm → một rào cản → một giải pháp). Không bắt đầu bằng “làm AI hỗ trợ người khiếm thị”; hãy mô tả một người dùng cụ thể đang gặp một rào cản cụ thể trong tuyển dụng hoặc môi trường làm việc.
+
+Mẫu problem statement (phát biểu vấn đề):
+
+> [Người dùng cụ thể] gặp khó khăn khi [tình huống công việc] vì [rào cản cụ thể], dẫn đến [hậu quả có ý nghĩa hoặc có thể quan sát].
+
+Trước khi build, cả team phải trả lời năm câu:
+
+1. User cụ thể là ai, thay vì chỉ gọi chung là “người khuyết tật”?
+2. Barrier xảy ra ở moment nào: phỏng vấn, onboarding, meeting, training hay thực hiện công việc?
+3. Một pain point quan trọng nhất là gì?
+4. Cách người dùng đang dùng hoặc sản phẩm hiện có còn thiếu gì?
+5. Vì sao task này cần AI, và AI cải thiện được điều gì so với rule/manual workflow (quy tắc/quy trình thủ công)?
+
+Có thể dùng công thức định tính sau để so sánh các problem:
+
+```text
+Potential impact
+≈ mức độ nghiêm trọng
+× tần suất xảy ra
+× số người bị ảnh hưởng
+× mức cải thiện mà giải pháp tạo ra
+```
+
+Không cần bịa số liệu để làm công thức này “chính xác”. Mục đích là buộc team so sánh tác động bằng evidence thay vì chọn ý tưởng vì công nghệ trông ấn tượng.
+
 ### 9.1. Visual Impairment
 
 #### Những vấn đề có thể xuất hiện
@@ -700,6 +738,28 @@ Không cần tách Python service chỉ để architecture nhìn “đẹp”. M
 
 Chuẩn bị capability, không chuẩn bị solution.
 
+### Độ sâu kỹ thuật thực sự cần thiết
+
+ADC cần **applied AI engineering (kỹ thuật AI ứng dụng)** và **product engineering (kỹ thuật xây sản phẩm)** nhiều hơn một bài nghiên cứu mô hình mới. Team có thể hình dung ba mức sử dụng AI:
+
+| Mức | Ví dụ | Đánh giá cho hackathon 3 ngày |
+|---|---|---|
+| AI API/pretrained model | Multimodal API, STT/TTS, OCR, model từ Hugging Face | Hoàn toàn hợp lệ nếu dùng có mục đích và biết giới hạn |
+| Applied AI pipeline | RAG, embedding/vector search, speech → NLP, image → structured output | Phù hợp nhất với đội hình hiện tại |
+| Custom training/research | Thu thập dataset lớn, train model từ đầu, thử kiến trúc mới | Chỉ dùng khi brief thật sự đòi hỏi; rủi ro thời gian cao |
+
+Phúc tạo lợi thế bằng cách chọn model/API phù hợp, test sample, đo quality/latency, phân tích lỗi và đóng gói output để tích hợp. Anh tạo lợi thế bằng một luồng sản phẩm ổn định, accessible, có error handling và deploy được. Team không được cộng điểm chỉ vì dùng microservices, Kubernetes, nhiều database hoặc hạ tầng production phức tạp.
+
+Hardware cũng không có điểm thưởng mặc định. Nó tạo hiệu ứng trực quan nhưng mang thêm rủi ro linh kiện, chế tạo và sửa lỗi. Với đội hình hiện tại, software-first là lựa chọn tự nhiên; chỉ chọn hardware/hybrid khi user problem thật sự cần và team có cách prototype an toàn trong thời gian cho phép.
+
+### Ba pattern kiến trúc nên cân nhắc
+
+1. **Web/app + server + external AI API:** nhanh nhất cho LLM, multimodal, OCR hoặc text transformation.
+2. **Web/app + Node server + Python/FastAPI inference:** dùng khi Phúc cần preprocessing hoặc chạy pretrained model bằng Python.
+3. **Lightweight AI-first app:** frontend gọi server route tối giản; phù hợp khi demo chỉ cần một vertical slice và không cần database.
+
+Chỉ thêm database khi workflow cần profile, history, preference hoặc feedback. Dù dùng pattern nào, team cần stable demo input (đầu vào demo ổn định), cached fallback và video dự phòng; demo chính vẫn nên chạy thật nếu điều kiện cho phép.
+
 ### Bảo Anh
 
 - một React/Next.js starter (bộ khung dự án ban đầu) gọn;
@@ -858,9 +918,22 @@ Theo Terms & Conditions (Điều khoản và Điều kiện) công khai:
 - quyền sở hữu idea, concept và solution vẫn thuộc về team;
 - BTC không yêu cầu chuyển giao ownership (quyền sở hữu);
 - các đội có thể độc lập phát triển idea giống nhau;
-- việc tiếp tục phát triển hoặc thương mại hóa sau cuộc thi là quyết định và trách nhiệm của team.
+- việc tiếp tục phát triển hoặc thương mại hóa sau cuộc thi là quyết định và trách nhiệm của team;
+- team cho phép BTC sử dụng, sao chép, xuất bản và hiển thị sản phẩm, ý tưởng, tóm tắt dự án, slide, ảnh, video, tên đội và tài liệu liên quan để vận hành sự kiện, báo cáo, truyền thông, giáo dục và quảng bá; quyền này **không chuyển quyền sở hữu IP nền tảng** cho BTC;
+- người tham gia đồng ý bảo vệ BTC trước các khiếu nại, thiệt hại hoặc tranh chấp pháp lý phát sinh từ việc tham dự hoặc bài nộp của mình;
+- BTC không chịu trách nhiệm cho tranh chấp về quyền sở hữu, ý tưởng giống nhau hoặc việc thương mại hóa sau sự kiện;
+- team phải khai báo thông tin trong form chính xác và đầy đủ; thông tin sai hoặc gây hiểu lầm có thể dẫn tới disqualification.
 
 Team có thể dùng open-source library (thư viện mã nguồn mở), pretrained model (mô hình huấn luyện sẵn) hoặc API nếu tuân thủ license (giấy phép sử dụng) và không sao chép nguyên một solution có sẵn. Những điểm chưa rõ như AI-generated code (mã do AI tạo), generic starter repo (kho mã khởi tạo dùng chung) và yêu cầu disclose (khai báo) model/dataset (mô hình/tập dữ liệu) nên hỏi lại trong briefing.
+
+### Hình ảnh, quyền riêng tư và chi phí tham dự
+
+- Không có travel support (hỗ trợ di chuyển). Người ngoài TP.HCM tự chi trả đi lại và lưu trú.
+- Khi tham gia, thành viên đồng ý có thể được chụp ảnh hoặc ghi hình. RMIT Vietnam và đại diện được ủy quyền có thể dùng hình ảnh/đoạn ghi trong website, ấn phẩm và mạng xã hội liên quan đến RMIT; tên hoặc danh tính có thể xuất hiện trong chú thích.
+- RMIT thu thập thông tin cá nhân để quản lý việc tham dự và lưu trữ/sử dụng ảnh, video cùng thông tin liên quan đến người tham gia hoặc sản phẩm theo Privacy Statement của trường.
+- Vì repository có thể được chia sẻ hoặc public, không đưa số điện thoại, ngày sinh, địa chỉ, giấy tờ cá nhân, consent form hoặc API key vào Git.
+
+Trước khi nộp, lưu một bảng nguồn cho icon, font, ảnh, dataset, model, code snippet và library: tên tài sản, nguồn, license, điều kiện attribution (ghi công) và nơi đã dùng. Với asset không rõ quyền sử dụng, thay thế trước khi quay video hoặc nộp deck.
 
 ---
 
@@ -885,6 +958,8 @@ Team có thể dùng open-source library (thư viện mã nguồn mở), pretrai
 
 ## 18. Bài học từ các mùa trước
 
+Phần dưới chỉ là bản tóm tắt để cả team thấy pattern. Bản tổng hợp riêng tại [`ADC_Past_Winners_Technical_Review.md`](./ADC_Past_Winners_Technical_Review.md) đi sâu hơn vào các mùa và đội thắng tìm được từ nguồn công khai, gồm problem, product flow, technical reconstruction (tái dựng kỹ thuật ở mức có căn cứ), điểm mạnh theo rubric và bài học cho ADC 2026. File đó phân biệt rõ thông tin được nguồn xác nhận với phần suy luận; không coi chi tiết kỹ thuật không được công bố là fact (sự thật đã xác nhận).
+
 ### The Great Musica — Quán quân 2024
 
 Team xây website thư viện bản nhạc Việt bằng Braille (chữ nổi) cho người mù và khiếm thị, kèm khả năng chuyển standard music sheet (bản nhạc tiêu chuẩn). Một website vẫn có thể thắng khi nhu cầu đủ cụ thể và accessibility nằm ở trung tâm sản phẩm.
@@ -908,6 +983,8 @@ Team gồm hai Software Engineering students và một Digital Communications/Mu
 
 Các case trên cho thấy không có một tech stack thắng cuộc cố định. Website, app, AI service và hardware đều có thể đứng top khi giải quyết đúng barrier.
 
+Ngân hàng ý tưởng riêng tại [`ADC_2026_Competitive_Idea_Portfolio.md`](./ADC_2026_Competitive_Idea_Portfolio.md) dùng các pattern này để đề xuất nhiều hướng cho cả bốn nhóm. Team chỉ mở portfolio để tạo option sau khi hiểu brief, không chọn ý tưởng chỉ vì nó được xếp hạng cao trong tài liệu.
+
 Nguồn:
 
 - [ADC 2024 — RMIT Vietnam drives the employability of people with disabilities](https://www.rmit.edu.vn/news/all-news/2024/jun/rmit-vietnam-drives-the-employability-of-people-with-disabilities)
@@ -917,6 +994,19 @@ Nguồn:
 ---
 
 ## 19. Việc cần làm từ bây giờ
+
+### Những bẫy cần tránh trong cả ba ngày
+
+- **Generic disability chatbot:** nếu giám khảo có thể hỏi “vì sao không dùng ChatGPT?”, workflow chưa đủ riêng và chưa đủ sâu.
+- **Tech-first:** không chọn camera, RAG hay model chỉ vì team đã biết dùng; bắt đầu từ barrier.
+- **AI for AI's sake:** nếu rule đơn giản xử lý tốt hơn, không cần gọi LLM.
+- **Super app:** chatbot + CV + TTS + job board + calendar thường là scope không thể hoàn thiện trong ba ngày.
+- **Tự đoán user need:** claim không có end-user evidence là rủi ro trực tiếp với User-Centred Design.
+- **Sản phẩm hỗ trợ nhưng bản thân không accessible:** đây là mâu thuẫn nghiêm trọng, không phải lỗi UI nhỏ.
+- **Over-engineering:** hạ tầng phức tạp không tạo điểm nếu người dùng không nhận thêm giá trị.
+- **Demo dễ vỡ:** giảm dependency và service; chuẩn bị fallback trung thực.
+- **Giấu rủi ro AI:** phải nói uncertainty, privacy, human confirmation, limitation và failure mode.
+- **Lạc khỏi employability:** luôn nối solution với hiring, onboarding, training, communication, task performance hoặc workplace participation.
 
 ### Trước khi nộp form
 
@@ -1021,3 +1111,4 @@ Cuối cùng, lựa chọn nhóm chỉ là bước đầu. Thứ quyết định
 6. [ADC 2024 — Employability of people with disabilities](https://www.rmit.edu.vn/news/all-news/2024/jun/rmit-vietnam-drives-the-employability-of-people-with-disabilities)
 7. [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 8. [W3C Web Accessibility Initiative](https://www.w3.org/WAI/)
+9. [RMIT Privacy Statement](https://www.rmit.edu.au/utilities/privacy)
