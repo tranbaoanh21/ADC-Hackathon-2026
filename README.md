@@ -4,15 +4,16 @@ README này là tài liệu trung tâm để ba thành viên cùng nắm một c
 
 Các thuật ngữ tiếng Anh khó được chú thích bằng tiếng Việt ở lần xuất hiện đầu tiên hoặc tại phần chúng được dùng nhiều nhất. Bảng thuật ngữ cuối README giúp tra lại nhanh mà không làm phần nội dung chính quá nặng.
 
-### Ba tài liệu chính trong workspace
+### Bộ tài liệu trong workspace
 
 | Tài liệu | Dùng để làm gì? | Khi nào nên đọc? |
 |---|---|---|
 | `README.md` | Nguồn thông tin chung và toàn diện về ADC 2026 dành cho cả team | Cả ba người đọc trước khi đăng ký và dùng làm checklist trong cuộc thi |
 | [`ADC_Past_Winners_Technical_Review.md`](./ADC_Past_Winners_Technical_Review.md) | Tổng hợp các đội đoạt giải tìm được từ nguồn công khai, phân tích problem, solution, technical approach (hướng kỹ thuật) và bài học | Đọc khi muốn hiểu mặt bằng bài mạnh và tránh lặp lại giải pháp cũ |
-| [`ADC_2026_Competitive_Idea_Portfolio.md`](./ADC_2026_Competitive_Idea_Portfolio.md) | Danh mục nhiều hướng ý tưởng cạnh tranh cho bốn nhóm, kèm shortlist, MVP (phiên bản tối thiểu), AI, demo, rủi ro và cách ghi điểm | Dùng để brainstorm sau khi nhận assignment/brief; không xem là đề đã chốt |
+| [`ADC_Visual_Impairment_User_Insights.md`](./ADC_Visual_Impairment_User_Insights.md) | Nghiên cứu sâu về người mù và người low vision: đời sống, laptop/điện thoại, assistive technology, workplace journey, pain point và hướng giải pháp | Cả team đọc trước Day 1 nếu Visual Impairment nằm trong hai lựa chọn; dùng làm nền để hỏi end-user, không xem là bằng chứng thay cho phỏng vấn |
+| [`ADC_Neurodivergence_User_Insights.md`](./ADC_Neurodivergence_User_Insights.md) | Nghiên cứu sâu về neurodivergence: functional needs, sensory/cognitive context, công cụ hỗ trợ, rào cản công việc và hướng giải pháp không ép disclosure | Cả team đọc trước Day 1 nếu Neurodivergence nằm trong hai lựa chọn; dùng để tránh stereotype và chuẩn bị discovery |
 
-Hai file chuyên đề không thay thế README: file winners là tài liệu nghiên cứu lịch sử, còn portfolio là ngân hàng giả thuyết để thảo luận. Brief chính thức và insight từ end-user vẫn có quyền làm team đổi hướng.
+Các file chuyên đề không thay thế README: file winners là tài liệu nghiên cứu lịch sử, còn hai user-insight file là nền nghiên cứu cho discovery. Brief chính thức và bằng chứng từ end-user vẫn có quyền làm team đổi hướng.
 
 Nếu chỉ cần nhớ ba ý, hãy nhớ:
 
